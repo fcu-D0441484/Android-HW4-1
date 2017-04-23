@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
         name=(EditText)findViewById(R.id.editText);
         Button button = (Button)findViewById(R.id.button);
+        button.setOnClickListener(Broad);
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
